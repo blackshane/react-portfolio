@@ -1,7 +1,13 @@
 import React from 'react';
+
  
 const projects = [
     // TODO: WRITE IN PROJECTS HERE
+    // Image
+    // Title
+    // Link to deployed App
+    // Link to GitHub repo
+    
 ]
 
 // JSX Expression to render projects into the portfolio
