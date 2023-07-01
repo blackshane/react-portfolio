@@ -4,8 +4,8 @@ const projects = [
     // TODO: WRITE IN PROJECTS HERE
 ]
 
-// JSX Expression to render projects into the Portfolio
-export default function Portfolio() {
+// JSX Expression to render projects into the portfolio
+export default function Project() {
     return (
       <div className='container'>
         <div className='p-5 mb-4 bg-light'>
