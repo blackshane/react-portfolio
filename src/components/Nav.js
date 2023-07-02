@@ -1,32 +1,19 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Nav() {
-  const linkStyle = { border: '1px black', padding: '5px' };
-
+  
   return (
-    <nav className="main-header-menu">
-      <section
-        style={{
-          display: 'flex',
-          fontFamily: 'helvetica',
-          flexDirection: 'row',
-          alignItems: 'flex-start',
-          justifyContent: 'flex-start',
-        }}
-      >
-        <div style={linkStyle}>
-          <a href="#">About Me</a>
-        </div>
-        <div style={linkStyle}>
-          <a href="#">Portfolio</a>
-        </div>
-        <div style={linkStyle}>
-          <a href="#">Contact</a>
-        </div>
-        <div style={linkStyle}>
-          <a href="#">Resume</a>
-        </div>
-             </section>
+    <nav className="nav navbar">
+      <section className='links'>
+        <Link to='/'> About Me </Link>
+        <Link to='./Project.js'> Portfolio</Link>
+        <Link to='./Form/index.js'>Contact</Link>
+        <Link to='./Resume.js'> Resume</Link>
+
+      
+        
+       </section>
     </nav>
   );
 }
