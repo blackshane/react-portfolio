@@ -17,11 +17,13 @@ export default function Project() {
         <div className='p-5 mb-4 bg-light'>
             <h2>Projects</h2>
             <ul className='list-group'>
-                {projects.map((project) => (
-                    <li className="list-group item" key={projects.id}>
-                        {`${project.name} ${project.description}`}
+                {projects.map((project) => {
+                    return (
+                    <li className="list-group item" key={projects.title}>
+                        {`${project.title} ${project.description}`}
                     </li>                    
-                ))}
+                )
+                    })}
             </ul>
         </div>
 
