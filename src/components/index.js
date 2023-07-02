@@ -39,6 +39,14 @@ export default function  Form() {
       <p>Hello {name}</p>
       <form className="form">
         <input
+        value={name}
+        name="name"
+        onChange={handleInputChange}
+        type="name"
+        placeholder="name"
+        />
+        
+        <input
           value={email}
           name="email"
           onChange={handleInputChange}
