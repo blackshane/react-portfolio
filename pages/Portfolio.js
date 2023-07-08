@@ -1,9 +1,9 @@
 import React from 'react';
-import Project from '../Project';
+import Project from '../src/components/Portfolio';
 
 export default function Portfolio() {
     return (
-        <main>
+        <main className='projects'>
             <Project />
         </main>
     )
