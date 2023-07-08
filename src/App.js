@@ -1,10 +1,10 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Portfolio from '../pages/Portfolio';
-import About from '../pages/About';
-import Resume from '../pages/Resume';
+import Portfolio from './pages/Portfolio';
+import About from './pages/About';
+import Resume from './pages/Resume';
 import Nav from './components/Nav';
-import Contact from '../pages/Contact';
+import Contact from './pages/Contact';
 
 function App() {
   return (
