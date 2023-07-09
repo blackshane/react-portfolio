@@ -7,8 +7,8 @@ export default function Nav() {
     <nav className="nav navbar">
       <section className='links'>
         <Link to='/'> About Me </Link>
-        <Link to='./Project.js'> Portfolio</Link>
-        <Link to='./Form/index.js'>Contact</Link>
+        <Link to='./Project.js'> Portfolio </Link>
+        <Link to='./Form/index.js'>Contact </Link>
         <Link to='./Resume.js'> Resume</Link>
 
       
