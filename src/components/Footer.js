@@ -2,8 +2,6 @@ import React from 'react';
 import GitHubSvg from '../images/github.svg';
 import LinkedInSvg from '../images/linkedin.svg'
 
-import "../styles/Footer.css"
-
 export default function Footer() {
     return (
         <div className='footer'>
