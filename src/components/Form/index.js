@@ -47,6 +47,7 @@ export default function  Form() {
         />
         
         <input
+        className='message'
           value={message}
           name="message"
           onChange={handleInputChange}

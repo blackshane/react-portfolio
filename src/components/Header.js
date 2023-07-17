@@ -8,7 +8,7 @@ export default function Header() {
     return (
         <div className="header">
             <h1> Thomas Shane Black</h1>
-            <img src={imageSrc} alt='Me'></img>
+            <img className='header-img' src={imageSrc} alt='Me'></img>
             <Nav />
         </div>
     )
